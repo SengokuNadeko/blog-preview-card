@@ -1,0 +1,105 @@
+body{
+    background-color: #f5d04e;
+    font-family: Figtree;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 85px;
+}
+
+.card{
+    width: 400px;
+    height: 600px;
+    border-radius: 20px;
+    background-color: white;
+    padding-left: 20px;
+    outline: 1px solid black;
+    box-shadow: 10px 10px black;
+}
+
+.image{
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.learning{
+    width: 100px;
+    height: 30px;
+    background-color: #f5d04e;
+    border-radius: 4px;
+}
+
+.profile-container{
+    display: flex;
+    padding-top: 10px;
+}
+
+.profile-name{
+    font-family: Figtree-ExtraBold;
+    float: left;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.text{
+    padding-left: 20px;
+}
+
+img#greg{
+    width: 40px;
+}
+
+img#svg{
+    border-radius: 20px;
+}
+
+p#learn{
+    font-family: Figtree-SemiBold;
+    padding-left: 17px;
+    padding-top: 5px;
+}
+
+p{
+    font-size: 16px;
+    text-align: left;
+}
+
+p#name{
+    font-family: Figtree-ExtraBold;
+}
+
+p#annotation{
+    padding-right: 30px;
+    color: hsl(0, 0%, 50%);
+}
+
+.attribution { 
+    padding-top: 40px;
+    padding-right: 20px;
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@font-face {
+    font-family: Figtree;
+    src: url('assets/fonts/Figtree-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: Figtree-Italic;
+    src: url('assets/fonts/Figtree-Italic-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: Figtree-SemiBold;
+    src: url('assets/fonts/static/Figtree-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: Figtree-ExtraBold;
+    src: url('assets/fonts/static/Figtree-ExtraBold.ttf');
+}
